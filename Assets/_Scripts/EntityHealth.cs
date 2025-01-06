@@ -63,7 +63,7 @@ public class EntityHealth : MonoBehaviour
     {
         CurrentHealth = 0;
         OnDie?.Invoke();
-        this.enabled = false;
+        //this.enabled = false;
         //Destroy(gameObject, 3f);
     }
 }
